@@ -1,0 +1,67 @@
+.Body{
+    margin: 4rem 1rem;
+}
+
+.Search{
+    margin-bottom: 1rem;
+    border:none;
+}
+
+.res-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.linkk{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.fliterBox{
+    display: flex;
+    gap: 2rem;
+}
+
+.searchBar{
+    display: flex;
+    gap: .3rem;
+    margin-bottom: 1rem;
+}
+
+.res-btn{
+    border: none;
+    background-color: #c57804;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.searchBarBtn{
+    background-color: #c57804;
+
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 4px;
+
+
+}
+.searchBarText{
+    
+    color: black;
+    border: none;
+
+    border-radius: 4px;
+    box-shadow: 0 0 1px 1px rgb(157, 92, 1);
+}
+.login-input{
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+

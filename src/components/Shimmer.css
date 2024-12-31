@@ -1,0 +1,24 @@
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 4.2rem;
+    margin-left: 1.2rem;
+}
+
+.shimmer div{
+    height: 23.1rem;
+    width: 15rem;
+    background-color: rgba(182, 182, 182, 0.479);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.shimmer div img{
+    height: 10rem;
+    width: 13rem;
+    mix-blend-mode: multiply;
+}

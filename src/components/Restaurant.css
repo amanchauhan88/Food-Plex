@@ -1,0 +1,46 @@
+.Card{
+    padding: 10px;
+    padding-top: 2.5rem;
+    height: 390px;
+    width: 14rem;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #583101;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+.Card:hover{
+    box-shadow: 0px 0px 0px 2px #e09f3e;
+    
+
+}
+
+.res-name{
+    margin: 5px 0;
+    color: #e09f3e;
+}
+
+.res-img{
+    width: 100%;
+    height: 12rem;
+    margin: .5rem 0;
+    border-radius: 5px;
+}
+
+.star-tod{
+
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+.promotedLabel{
+    position: absolute;
+    margin: 8px;
+    padding: 8px;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+}

@@ -1,0 +1,54 @@
+.items{
+    margin: 2rem;
+    border-bottom: 3px dashed black;
+}
+
+.items-image{
+    width: 8rem;
+    height: 6rem;
+    margin: .6rem;   
+    border: 1px solid rgb(99, 98, 98);
+    border-radius: 20px;
+}
+
+.Img-btn-box{
+    position: relative;
+
+}
+
+
+.Add-btn{
+    position: absolute;
+    right: 2rem;
+    top: 5.2rem;
+    border: none;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 5rem;
+    text-decoration: none;
+    border-radius: 13px;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.Add-btn:hover{
+    background-color: #583101;
+    box-shadow: black 0px 3px 8px;
+
+}
+
+
+.Desc-box{
+    display: flex;
+    justify-content: space-between;
+}
+.ItemList{
+    background-color: #583101;
+
+}
+/* .items{
+    background-color: #583101;
+
+} */
